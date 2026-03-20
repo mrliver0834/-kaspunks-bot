@@ -2,8 +2,8 @@ import requests
 import random
 import os
 
-TOKEN = "7565680248:AAG0bNUtg_9ZwlhySu8MU-BOEbwpESWY16Y"
-CHAT_ID = "-1002493995289"
+TOKEN = os.getenv("TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 TOTAL_ITEMS = 3357
 METADATA_CID = "bafybeicpypf5l2b6hj5wl5g7dfc5dttjleeg7auddsw76ta5kmo2obgyfu"
