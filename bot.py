@@ -5,7 +5,7 @@ import os
 TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-TOTAL_ITEMS = 3357
+TOTAL_ITEMS = 1000
 METADATA_CID = "bafybeicpypf5l2b6hj5wl5g7dfc5dttjleeg7auddsw76ta5kmo2obgyfu"
 
 LAST_ID_FILE = "last_id.txt"
